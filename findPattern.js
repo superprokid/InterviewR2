@@ -10,7 +10,7 @@ var findPattern = function (Arr1,Arr2,size) {
             visited[i][j] = false
         }
     }
-    let count = 0
+    let count = 0 //Go to Each Value of Arr
     Arr2.forEach((value) => {
         for(let i=0;i<size;i++){
             for(let j=0;j<size;j++){
